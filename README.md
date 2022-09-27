@@ -16,6 +16,11 @@ These are the MySQL commands I used:
 
 To populate your database, simply run the bash script on Linux and ensure that your localhost name, username, password, and database name are equivalent to what your code has.
 
+## Website Used
+
+Link: https://gasprices.aaa.com/
+
+<img src='imgs/gas_site_walkthrough.gif' title='Walkthrough gif' alt='Walkthrough gif' />
 
 ## LAMP Explanation
 
