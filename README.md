@@ -3,11 +3,12 @@ LAMP (Linux, Apache, MySQL, PHP) stack based app that webscrapes gas prices, tur
 
 ## Running The App
 
-To get the appication running on your local machine, you will need Apache and have the .php files stored in /var/www/html on Linux. 
+To get the application running on your local machine, you will need Apache and have the .php files stored in /var/www/html on Linux. 
+
+Another application, tagsoup, is required to format the html into a xhtml however the bash file already will check for it and install it if necessary.
 
 You will also need the SQL database. I used a database called "gas" and the table called "imgs" with three columns for the gas type, date, and the img itself.
 
-Another applicaion, tagsoup, is required to format the html into a xhtml however the bash file already will check for it and install it if necessary.
 
 These are the MySQL commands I used: 
 * CREATE DATABASE gas; 
@@ -36,7 +37,7 @@ Bash is used here for:
 
 Walkthrough of Running Bash Script:
 
-<img src='imgs/bash_walkthrough.gif' title='Walkthrough gif' width=500 alt='Walkthrough gif' />
+<img src='imgs/bash_walkthrough.gif' title='Walkthrough gif' alt='Walkthrough gif' />
 
 ### Apache
 Apache is a web server.
@@ -46,7 +47,7 @@ Apache is used here for:
 
 Walkthrough of My Local Site Hosted with Apache:
 
-<img src='imgs/apache_walkthrough.gif' title='Walkthrough gif' width=500 alt='Walkthrough gif' />
+<img src='imgs/apache_walkthrough.gif' title='Walkthrough gif' alt='Walkthrough gif' />
 
 ### MySQL
 MySQL is a database manangement software for managing SQL databases. 
@@ -61,7 +62,7 @@ SQL is used here for:
 
 Walkthrough of MySQL & SQL Database:
 
-<img src='imgs/mysql_walkthrough.gif' title='Walkthrough gif' width=500 alt='Walkthrough gif' />
+<img src='imgs/mysql_walkthrough.gif' title='Walkthrough gif' alt='Walkthrough gif' />
 
 ### PHP
 PHP is a scripting language which is mainly used for web development. 
